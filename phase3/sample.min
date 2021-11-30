@@ -1,0 +1,19 @@
+function main;
+beginparams
+endparams
+beginlocals
+  b : integer;
+  c : integer;
+  d : array [20] of integer;
+  a : integer;
+endlocals
+
+beginbody   ## main program
+  a := 15 / 5;
+  write a;
+  b := 5 + 5;
+  c := 8 - 2;
+  write b;
+  write c;
+  d[0] := b + c;
+endbody
